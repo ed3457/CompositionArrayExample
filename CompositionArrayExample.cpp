@@ -2,10 +2,20 @@
 //
 
 #include <iostream>
-#include 
+#include "Car.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+  
+	Car c1;
+
+	Wheel w1(17);
+
+	for(int i=0;i<4;i++)
+	c1.setWheel(i, w1);
+
+
+	cout << c1.getWheel(3).getDiameter();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
