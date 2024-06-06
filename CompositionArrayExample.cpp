@@ -14,7 +14,9 @@ int main()
 	c1.setWheel(i, w1);
 
 
-	cout << c1.getWheel(3).getDiameter();
+	//cout << c1.getWheel(3).getDiameter();
+
+	c1.PrintWheelInfo();
 
 }
 

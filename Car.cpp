@@ -11,3 +11,12 @@ Wheel Car::getWheel(int index)
 	if (index >= 0 && index < 4)
 	return wheels[index];
 }
+
+void Car::PrintWheelInfo()
+{
+	for (int i = 0; i < 4; i++)
+	{
+		cout << wheels[i].getDiameter() << endl;
+	}
+
+}

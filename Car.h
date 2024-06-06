@@ -11,5 +11,7 @@ public:
 
 	Wheel getWheel(int index); 
 
+	void PrintWheelInfo(); // print the info for all the wheels 
+
 };
 
